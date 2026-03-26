@@ -1,31 +1,78 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Projeto Portifólio Gustavo Guanabara</title>
-    <link rel="stylesheet" href="estilos/style.css">
-    <link rel="shortcut icon" href="favicon.svg" type="image/svg"> 
-    <script src="https://kit.fontawesome.com/ccc3c1f8c4.js" crossorigin="anonymous"></script>
-</head>
-<body>
+    <link rel="stylesheet" href="estilos/style.css" />
+    <link rel="shortcut icon" href="favicon.svg" type="image/svg" />
+    <script
+      src="https://kit.fontawesome.com/ccc3c1f8c4.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <header>
-        <nav id="menu">
-            <ul>
-                <li><a href="#"><i class="fa-solid fa-house"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-brain"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-graduation-cap"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-trowel-bricks"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-moon"></i></a></li>
-            </ul>
-        </nav>
+      <nav id="menu">
+        <ul>
+          <li>
+            <a href="#"><i class="fa-solid fa-house"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-brain"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-graduation-cap"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-trowel-bricks"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-moon"></i></a>
+          </li>
+        </ul>
+      </nav>
     </header>
     <main>
-        <h1>Em breve</h1>
-    </main>
-    <footer>
+      <section id="ficha">
+        <img src="imagens/guanabara-perfil.jpg" alt="" class="foto" />
+        <h1>Gustavo Guanabara</h1>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab, odio
+          animi perspiciatis ipsam odit mollitia ea, labore quisquam earum culpa
+          minima aspernatur. Dignissimos in eaque laborum nisi voluptas enim
+          voluptatibus!
+        </p>
+        <div id="social">
+          <a href=""><i class="fa-brands fa-linkedin"></i></a>
+          <a href=""><i class="fa-brands fa-github"></i></a>
+          <a href=""><i class="fa-brands fa-youtube"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fa-solid fa-globe"></i></a>
+        </div>
+      </section>
+      <section id="detalhes">
+        <article id="video">
+            <h2><i class="fa-solid fa-handshake"></i> Deixe-me apresentar </h2>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/wQFSXfxtsVo?si=PwjQhdhb0HPgLkCV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </article> <!-- fim do article video -->
 
-    </footer>
+        <article id="skills">
+            <h2><i class="fa-solid fa-brain"></i> Minhas skills</h2>
+        </article> <!-- fim do article skills -->
+
+        <article id="formacao">
+            <h2><i class="fa-solid fa-graduation-cap"></i> Formação</h2>
+        </article> <!-- fim do article formação -->
+
+        <article id="projetos">
+            <h2><i class="fa-solid fa-trowel-bricks"></i> Projetos</h2>
+        </article> <!-- fim do article projetos -->
+      </section>
+    </main>
+    <footer></footer>
     <script src="scripts/script.js"></script>
-</body>
+  </body>
 </html>
